@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> E-commerce Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+     <section class="one">
+        <div class="header">
+            <div class="icon">
+                <h2>V<span>F</span></h2>
+            </div>
+            <h1>DENNIS <span class="veg">VEG </span>&<span class="fruit"> FRUIT</span> SHOP</h1>
+        </div>
+        <div class="navigation">
+           <div class="search"><input type="text" placeholder="Search"/></div>
+            <p id="text"></p>
+           <button type="button" onclick="myFuction()">Search</button>
+           
+           <div class="nav">
+            <a href="#" style="color: red;">Home</a>
+            <a href="veg.html">Vegetables</a>
+            <a href="fruit.html">Fruits</a>
+            <a href="salad.html">Tubers</a>
+            <a href="about.html">About</a>
+           </div>
+        </div>
+     </section>
+     <section class="two">
+        <div class="text">
+            <h2 class="welcome">Welcome to</h2>
+            <h1 class="welcome">DENNIS VEG & FRUIT SHOP</h1>
+            <h3 class="caption">...a place to test the feeling of true <span class="nature">nature</span></h3>
+        </div>
+        <div class="image">
+            <img src="pineapple.jpg" width="360px"/>
+        </div>
+        </section>
+        <section class="three">
+           <div class="footer">
+            <div class="socials">
+            <a class="twitter" href="https://x.com/BersenDennio?t=g9jexw-SeDrgcfka_i67Xw8s=09">Twitter</a>
+            <a class="facebook" href="https://www.facebook.com/dennio.bersen">Facebook</a>
+            <a class="instagram" href="https://instagram.com/denniobersen?igshid=OGY3MTU3OGY1Mw==">Instagram</a>
+            <a class="whatsapp" href="https://wa.me/+254739769713">Whatsapp</a>
+            </div>
+            <h4>Sign up for our deals notification and enter into a draw to win a full green basket.</h4>
+            <button>Sign up</button>
+            <br/>
+           <p>&copy;Dennisveg&fruitshop 2023.</p>
+        </div>
+        </section>
+        <script>
+            function myFuction(){
+                document.getElementById('text').innerHTML='Welcome to DENNIS VEG & FRUIT SHOP, though we are still under constraction I do appreciate your efforts.';
+            }
+        </script>
+</body>
+</html>

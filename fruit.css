@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:#eab44e;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    text-align: center;
+    color:  #226e55;
+}
+.fruit{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    text-align: center;
+}
+p{
+    background-color: #226e55;
+    padding: 8px;
+    text-align: center;
+    color:#eab44e ;
+}
+span{
+    font-weight: bolder;
+    color: #01271a;
+}
+.fnb{
+    display: flex;
+    justify-content: space-between;
+}
+.fnb a{
+    text-decoration: none;
+}
+img{
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.4);
+}
+@media(max-width:600px) {
+    .fruit{
+    flex-direction: column;
+    }
+}

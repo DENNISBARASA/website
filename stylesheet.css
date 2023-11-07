@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+overflow-x: hidden;
+}
+.icon h2{
+color:#226e55;
+}
+.icon span{
+    color:#417b68;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 8px;
+    border-radius:50% ;
+}
+.header{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 20px;
+  background-color: #3cc295;
+  
+}
+.veg{
+    color: green;
+}
+.fruit{
+    color: red;
+}
+.navigation{
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    background-color: #3cc295;
+    margin-top: 2px;
+    justify-content:space-between;
+    box-shadow: 4px 6px 8px rgba(0, 0,0,0.5);
+}
+.search{
+    margin: 4px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.nav a{
+  padding:10px ;
+  text-decoration: none;
+  color:black
+}
+.nav a:hover{
+    color: #cdf3e6;
+    background-color: #417b68;
+}
+.nav a:active{
+    color: red;
+}
+.two{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.welcome{
+    font-size:30px;
+    color:  #226e55;
+}
+h3{
+    font-style: italic;
+}
+.nature{
+    color:green;
+    font-size: larger;
+}
+.footer{
+    background-color: #3cc295;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    padding: 10px;
+    margin: 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:#3cc295;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+    max-width:100px;
+    text-align: center;
+}
+.socials a:hover{
+   background-color:#417b68;
+}
+.socials a:active{
+    background-color:rgba(0,0,0,0.2);  
+}
+.twitter{
+    background-color: #01110b;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.2);
+}
+.facebook{  
+    background-color: #160be6;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.2);
+}
+.instagram{
+    background-color: #cf5269;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.2);
+}
+.whatsapp{
+    background-color: #049312;
+    box-shadow: 2px 3px 2px 3px rgba(0,0,0,0.2);
+}
+h4{
+    padding: 5px;
+}
+button{
+    color: aquamarine;
+    padding: 5px;
+    margin: 10px;
+    color: #3cc295;
+}
+p{
+    padding: 5px;
+}
+@media(max-width:600px){
+    .header,.navigation,.nav,.socials{
+        flex-direction:column;
+    }
+}
+
